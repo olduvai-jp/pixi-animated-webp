@@ -1,15 +1,15 @@
 {
-  "name": "pixi-animated-webp",
+  "name": "@olduvai-jp/pixi-animated-webp",
   "version": "1.0.0",
   "description": "Animated WebP Runtime for PixiJS",
-  "main": "./lib/pixi-animated-webp.js",
-  "module": "./lib/pixi-animated-webp.mjs",
-  "types": "./lib/pixi-animated-webp.d.ts",
+  "main": "./lib/olduvai-jp-pixi-animated-webp.js",
+  "module": "./lib/olduvai-jp-pixi-animated-webp.mjs",
+  "types": "./lib/olduvai-jp-pixi-animated-webp.d.ts",
   "exports": {
     ".": {
-      "import": "./lib/pixi-animated-webp.mjs",
-      "require": "./lib/pixi-animated-webp.js",
-      "types": "./lib/pixi-animated-webp.d.ts"
+      "import": "./lib/olduvai-jp-pixi-animated-webp.mjs",
+      "require": "./lib/olduvai-jp-pixi-animated-webp.js",
+      "types": "./lib/olduvai-jp-pixi-animated-webp.d.ts"
     }
   },
   "extensionConfig": {
