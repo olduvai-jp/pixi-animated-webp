@@ -44,3 +44,7 @@ This plugin requires the [ImageDecoder API](https://developer.mozilla.org/en-US/
 | PixiJS | PixiJS WebP |
 |--------|-------------|
 | v8.x   | v1.x        |
+
+## Acknowledgments
+
+This library is based on [@pixi/gif](https://github.com/pixijs-userland/gif) by [Matt Karl](https://github.com/bigtimebuddy). The WebP implementation adapts the original GIF playback architecture to use the modern ImageDecoder API for efficient WebP animation support.
