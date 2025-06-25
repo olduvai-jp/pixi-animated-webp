@@ -156,7 +156,7 @@ class AnimatedWebP extends Sprite
      * the buffer is to use Assets.
      * @example
      * import { Assets } from 'pixi.js';
-     * import 'pixi-animated-webp';
+     * import '@olduvai-jp/pixi-animated-webp';
      *
      * const webp = await Assets.load('file.webp');
      * @param buffer - WebP image arraybuffer from Assets.

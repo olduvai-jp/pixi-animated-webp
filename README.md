@@ -7,7 +7,7 @@ Plugin to support playback of animated WebP images in PixiJS. Unlike normal WebP
 Load an animated WebP image with Assets:
 
 ```ts
-import 'pixi-animated-webp';
+import '@olduvai-jp/pixi-animated-webp';
 import { Assets } from 'pixi.js';
 
 const app = new Application();
@@ -19,7 +19,7 @@ To use a WebP without Assets:
 
 ```ts
 import { Application } from 'pixi.js';
-import { AnimatedWebP } from 'pixi-animated-webp';
+import { AnimatedWebP } from '@olduvai-jp/pixi-animated-webp';
 
 const app = new Application();
 fetch('image.webp')
