@@ -1,6 +1,6 @@
 {
   "name": "@olduvai-jp/pixi-animated-webp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Animated WebP Runtime for PixiJS",
   "main": "./lib/olduvai-jp-pixi-animated-webp.js",
   "module": "./lib/olduvai-jp-pixi-animated-webp.mjs",
