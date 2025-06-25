@@ -1,0 +1,72 @@
+{
+  "name": "pixi-animated-webp",
+  "version": "1.0.0",
+  "description": "Animated WebP Runtime for PixiJS",
+  "main": "./lib/pixi-animated-webp.js",
+  "module": "./lib/pixi-animated-webp.mjs",
+  "types": "./lib/pixi-animated-webp.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/pixi-animated-webp.mjs",
+      "require": "./lib/pixi-animated-webp.js",
+      "types": "./lib/pixi-animated-webp.d.ts"
+    }
+  },
+  "extensionConfig": {
+    "docsName": "PixiJS Animated WebP",
+    "docsCopyright": "PIXI Copyright &copy; 2023 Matt Karl. 2025 dyamagishi.",
+    "docsTitle": "PixiJS Animated WebP API Documentation",
+    "docsDescription": "Documentation for PixiJS Animated WebP library",
+    "docsKeywords": "docs, documentation, pixi, pixijs, webp, animation, html5, javascript, jsdoc"
+  },
+  "scripts": {
+    "start": "xs serve",
+    "lint": "xs lint --max-warnings=0",
+    "types": "xs types",
+    "build": "xs build",
+    "docs": "xs docs",
+    "deploy": "xs deploy",
+    "release": "xs release",
+    "test": "xs test"
+  },
+  "engines": {
+    "node": ">=16",
+    "yarn": "please-use-npm",
+    "npm": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olduvai-jp/pixi-animated-webp.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "keywords": [
+    "webp",
+    "animation",
+    "pixi",
+    "pixijs"
+  ],
+  "author": "dyamagishi <dyamagishi@olduvai.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olduvai-jp/pixi-animated-webp/issues"
+  },
+  "homepage": "https://github.com/olduvai-jp/pixi-animated-webp#readme",
+  "pre-commit": [
+    "lint",
+    "types"
+  ],
+  "devDependencies": {
+    "@pixi/extension-scripts": "^2.4.1",
+    "pixi.js": "^8.0.0",
+    "pre-commit": "^1.2.2"
+  },
+  "peerDependencies": {
+    "pixi.js": "^8.0.0"
+  }
+}
