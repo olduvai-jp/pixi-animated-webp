@@ -355,6 +355,12 @@ class AnimatedWebP extends Sprite
 
         const frameIndex = this._frames.findIndex((frame) => localTime >= frame.start && localTime < frame.end);
 
+        // If no frame found (single-frame WebP), no need to update
+        if (frameIndex === -1)
+        {
+            return;
+        }
+
         if (this._currentTime >= this.duration)
         {
             if (this.loop)
